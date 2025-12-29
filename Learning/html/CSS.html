@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <title>Learning CSS</title>
+    <style>
+        /* class selectors */
+        .red {
+            background-color: rgb(235, 153, 77);
+            color: red;
+        }
+
+        /*Id selectors */
+        #green {
+            background-color: lightgreen;
+            color: green;
+        }
+
+        /* Child selectors */
+        div>h3 {
+            background-color: lightgray;
+            color: black;
+        }
+
+        /* Desendant selectors */
+        div p {
+            font-weight: bold;
+            background-color: lime;
+        }
+
+        /* Universal selectors */
+        * {
+            background-color: lightblue;
+            color: navy;
+        }
+
+        /* Pseudo selectors */
+        a:visited {
+            color: red;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:hover {
+            background-color: violet;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- # CSS Selectors -->
+
+
+    <!--  1. Element Selector -->
+
+    <p style="background-color: blueviolet; color: white;">Lorem ipsum dolor sit amet.</p>
+
+    <!-- 2. Class Selectors -->
+
+    <div class="red">Lorem ipsum dolor sit amet consectetur.</div>
+
+    <!-- 3. Id Selectors -->
+    <div id="green">Lorem ipsum dolor sit amet consectetur.</div>
+
+    <!-- 4. Child Selectors -->
+    <div>
+        <h3>This is a paragraph inside a div.</h3>
+        <span>This is a span inside a div.</span>
+    </div>
+
+    <!-- 5. Desendant Selectors -->
+    <div>
+        <section>
+            <p>This is a paragraph inside a section inside a div.</p>
+        </section>
+
+        <!-- 6.Universal Selector -->
+
+        <!-- 7. Pseudo Selectors -->
+        <a href="https://www.google.com">Google</a><br><br>
+        <a href="https://www.instagram.com">Instagram</a>
+</body>
+
+</html>
