@@ -70,6 +70,8 @@
             height: 150px;
         }
 
+
+
         /* CSS Sizing units */
         .divcls {
             width: 100vw;
@@ -77,6 +79,7 @@
             margin: auto;
             padding: 10px;
             height: auto;
+            font-size: 20px;
         }
 
         .spancls {
@@ -86,6 +89,19 @@
             padding: 5px;
             width: 500vw;
         }
+
+        /* em example
+         div {
+            font-size: 10px;
+        }
+
+        div .class {
+            font-size: 2em;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 10px;
+            width: 50%;
+        } */
     </style>
 </head>
 
@@ -138,20 +154,24 @@
             Some text here.</p>
 
         <!-- Learning CSS Sizing units -->
-        px is an absolute unit while %, em, rem are relative units.
+        <!-- px is an absolute unit while %, em, rem are relative units.
         px → pixels
 
         vh → viewport height
         vw → viewport width
         vh vw are relative to the size of the viewport.
-        em → relative to the font-size of the parent element.
-        rem → relative to the font-size of the root element.
+        em → relative to the font-size of the parent element. em is double the font-size of its parent element.
+        rem → relative to the font-size of the root element. -->
+
         <div class="divcls">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ducimus aut sequi, distinctio
             alias doloremque nostrum voluptate optio repellendus veritatis dolorem est quae in corrupti cumque aperiam
-            vel accusantium. Reiciendis necessitatibus veritatis ratione omnis?</div>
+            vel accusantium. Reiciendis necessitatibus veritatis ratione omnis?</div><br>
 
         <span class="spancls">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos exercitationem eum
-            distinctio, incidunt dolor illo soluta officiis labore magni nisi voluptates harum.</span>
+            distinctio, incidunt dolor illo soluta officiis labore magni nisi voluptates harum.</span><br><br><br>
+
+        <!-- em example -->
+        <div class="class">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt debitis rem optio?</div>
 </body>
 
 </html>
