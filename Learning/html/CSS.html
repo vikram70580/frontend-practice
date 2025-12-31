@@ -69,6 +69,23 @@
             width: 300px;
             height: 150px;
         }
+
+        /* CSS Sizing units */
+        .divcls {
+            width: 100vw;
+            border: 2px solid black;
+            margin: auto;
+            padding: 10px;
+            height: auto;
+        }
+
+        .spancls {
+            font-size: 20px;
+            border: 2px solid black;
+            margin: 50px;
+            padding: 5px;
+            width: 500vw;
+        }
     </style>
 </head>
 
@@ -119,6 +136,22 @@
         <p
             style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; background-color: aliceblue; font-size: 50px;  text-decoration-color: rgb(7, 254, 3); text-decoration:underline;">
             Some text here.</p>
+
+        <!-- Learning CSS Sizing units -->
+        px is an absolute unit while %, em, rem are relative units.
+        px → pixels
+
+        vh → viewport height
+        vw → viewport width
+        vh vw are relative to the size of the viewport.
+        em → relative to the font-size of the parent element.
+        rem → relative to the font-size of the root element.
+        <div class="divcls">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ducimus aut sequi, distinctio
+            alias doloremque nostrum voluptate optio repellendus veritatis dolorem est quae in corrupti cumque aperiam
+            vel accusantium. Reiciendis necessitatibus veritatis ratione omnis?</div>
+
+        <span class="spancls">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos exercitationem eum
+            distinctio, incidunt dolor illo soluta officiis labore magni nisi voluptates harum.</span>
 </body>
 
 </html>
